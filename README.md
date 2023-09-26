@@ -17,7 +17,7 @@
 ## Requisitos
 
 - [Interpretador R Versão 4.3.1](https://vps.fmvz.usp.br/CRAN)
-- [IDE RSTUDIO VERSÃO 2021.09.0](https://posit.co/blog/rstudio-2021.09.0-update-whats-new/)
+- [IDE RStudio versão 2021.09.0](https://posit.co/blog/rstudio-2021.09.0-update-whats-new/)
 
 ### Bibliotecas utilizadas
 - sqldf – Biblioteca de manipulação de linguagem SQL.
