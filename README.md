@@ -10,4 +10,4 @@
 
     Um dos pontos principais é a apresentação e estão sendo utilizadas duas plataformas o [GitHub](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) e o [Youtube](https://www.youtube.com/watch?v=Zf6rcv67bT4).
 
-
+[![R e SQL](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/video-youtube.png)](https://www.youtube.com/watch?v=Zf6rcv67bT4)
