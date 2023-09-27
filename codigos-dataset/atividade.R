@@ -60,7 +60,7 @@ idade_moda <- sqldf("SELECT AGE as Idade FROM
 
 View(idade_moda)
 
-# 4 - Qual a moda da tempo de internação dos pacientes?
+# 4 - Qual a moda do tempo de internação dos pacientes?
 tempo_moda <- sqldf("SELECT LOS as Tempo FROM
                    (SELECT LOS, COUNT(LOS) as Contar_tempo FROM dados
                     GROUP BY LOS
