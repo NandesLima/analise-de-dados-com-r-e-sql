@@ -43,6 +43,15 @@
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/tabela.jpg)
 
+Atributo | Descrição
+:--: | :--:
+AGE | Idade do paciente, varia de 0 a 17 anos
+FEMALE | Variável binária que indica se o paciente é do sexo feminino, sendo 1 para feminino e 0 para masculino
+LOS | Tempo de internação/permanência do paciente
+RACE | Raça do paciente, varia de 1 a 6
+TOTCHG | Custo de internação
+APRDRG | Grupo de diagnóstico do paciente
+
 ## Perguntas de negócios
 
   Como o intuito não é somente a explicação da Análise Descritiva de Dados, durante cada tópico serão respondidas algumas perguntas de negócios. Elas são:
