@@ -36,6 +36,13 @@
 
 [![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/data-gov.jpg)](https://healthdata.gov/)
 
+### Entendendo o dataset
+
+- O [dataset](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/dataset.csv) possui 500 linhas e 6 colunas.
+- Todos os atributos são do tipo INT (Número inteiro).
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/tabela.jpg)
+
 ## Perguntas de negócios
 
   Como o intuito não é somente a explicação da Análise Descritiva de Dados, durante cada tópico serão respondidas algumas perguntas de negócios. Elas são:
@@ -60,7 +67,7 @@
   18. Considerando o item anterior, qual idade tem média de gastos superior a 3000?
   19. O tempo de permanência é um fator crucial para pacientes internados, é possível descobrir se o tempo de permanência está relacionado com idade, gênero e raça?
   20. Quais variáveis têm maior impacto nos custos de internação hospitalar?
-  
+
 
 ## Análise Descritiva de Dados
 
