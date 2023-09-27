@@ -52,6 +52,10 @@ RACE | Raça do paciente, varia de 1 a 6
 TOTCHG | Custo de internação
 APRDRG | Grupo de diagnóstico do paciente
 
+### Limpeza nos dados
+
+  Como os dados já estão sumarizados a única limpeza dos dados feita foi excluir os valores nulos. Houve apenas uma ocorrência na na coluna RACE.
+
 ## Perguntas de negócios
 
   Como o intuito não é somente a explicação da Análise Descritiva de Dados, durante cada tópico serão respondidas algumas perguntas de negócios. Elas são:
@@ -80,4 +84,6 @@ APRDRG | Grupo de diagnóstico do paciente
 
 ## Análise Descritiva de Dados
 
-  A Análise Descritiva de Dados é responsável pela coleta, organização, descrição, síntese e análise dos dados.
+  A Análise Descritiva de Dados é responsável pela coleta, organização, descrição, síntese e análise dos dados. A Análise Descritiva pode ser feita através de MEDIDAS DE TENDÊNCIA CENTRAL, DE POSIÇÃO RELATIVA, DE DISPERSÃO, além de TABELAS DE FREQUêNCIA E REGRESSÃO.
+
+### Medidas de tedência central
