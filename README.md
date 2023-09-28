@@ -61,7 +61,7 @@ APRDRG | Grupo de diagnóstico do paciente
   Como o intuito não é somente a explicação da Análise Descritiva de Dados, durante cada tópico serão respondidas algumas perguntas de negócios. Elas são:
 
   1. Qual a idade média dos pacientes?
-  2. Qual o tempo médio de internações dos pacientes?
+  2. Qual o tempo médio de permanência/internações dos pacientes?
   3. Qual a moda da idade dos pacientes?
   4. Qual a moda do tempo de internação dos pacientes?
   5. Qual a mediana da idade dos pacientes?
@@ -87,3 +87,19 @@ APRDRG | Grupo de diagnóstico do paciente
   A Análise Descritiva de Dados é responsável pela coleta, organização, descrição, síntese e análise dos dados. A Análise Descritiva pode ser feita através de MEDIDAS DE TENDÊNCIA CENTRAL, DE POSIÇÃO RELATIVA, DE DISPERSÃO, além de TABELAS DE FREQUêNCIA E REGRESSÃO.
 
 ### Medidas de tedência central
+
+  Medidas de tendência central são aqueles que mostram o comportamento dos dados em torno de uma medida de centro, temos a média, moda e mediana.
+
+#### Média
+
+  Média é a mais utilizada das medidas de tendencia central, é o resultado das somas dos valores de uma variável dividido pela quantidade de observações.
+
+  O conceito de média responde as duas prinmeiras perguntas e no código [atividade.R](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/atividade.R) é utilizado a linguagem R em paralelo com o SQL.
+
+  1. Qual a idade média dos pacientes?
+
+    R: 5,096192 anos
+
+  2. Qual o tempo médio de permanência/internações dos pacientes?
+
+    R: 2,829659 horas
