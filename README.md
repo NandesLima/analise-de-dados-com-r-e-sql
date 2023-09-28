@@ -251,3 +251,31 @@ Aqui respondemos algumas perguntas de negócio (13 a 18) com algumas sumarizaç�
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-medio-idade-maior10-maior3k.jpg)
 
 
+## Regressão linear
+
+O modelo de regressão investiga a relação entre variáveis.
+
+### Regressão linear simples
+
+- **Regressão linear simples** descreve o relacionamento entre duas variáveis usando uma equação, uma variável independente x que explica a variação em outra variável, que é chamada de variável dependente y. O gráfico de dispersao entre as duas variáveis formam uma linha reta.
+
+- A regressão linear utiliza-se da correlação, que é a força de relacionamento linear entre as variáveis.
+
+- O coeficiente de correlação r permite identificar se o relacionamento entre duas variáveis é forte ou não o suficiente para considerar estatisticamente significante.
+
+- O coeficiente r varia entre -1 (forte relação negativa) e 1 (forte relação positiva), sendo 0 sem relação.
+
+- Correlação não significa causalidade(um evento causado pelo outro).
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/grafico-correlacao.png)
+
+A matriz gerada mostra o coefiente de correlação entre os dados do dataset, e podemos verificar que o único relacionamento estatísticamente significante é entre o tempo de internação (LOS) e os custos (TOTCHG).
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/grafico-dispersao-los-totchg.png)
+
+Podemos observar que o gráfico tem uma tendência linear, mais com uma certa dispersão relevante.
+
+
+### Regressão linear múltipla
+
+**Regressão linear múltipla** é a regressão linear que possui uma váriável dependente y e duas ou mais variáveis independentes x1...Xn.
