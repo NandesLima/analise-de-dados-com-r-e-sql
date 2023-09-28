@@ -8,7 +8,7 @@
 
 ## Introdução
 
-    Neste trabalho são utilizadas as ferramentas R e SQL para explicar e aplicar os conceitos de Análise Descritiva de forma prática, mas não possui o intuito de explicar as ferramentas utilizadas, sendo assim, são apresentados os principais conceitos da Análise Descritiva de Dados e em paralelo a aplicação prática com a linguagem R e a linguagem de consulta SQL.
+    Neste trabalho são utilizadas as ferramentas R e SQL para explicar e aplicar os conceitos de Análise Descritiva de forma prática, mas não possui o intuito de explicar as ferramentas utilizadas, sendo assim, são apresentados os principais conceitos da Análise Descritiva de Dados e em paralelo a aplicação prática com a linguagem R e a linguagem de consulta SQL. Todo o código está no [arquivo.R](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/atividade.R).
 
     Um dos pontos principais é a apresentação e estão sendo utilizadas duas plataformas o [GitHub](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) e o [Youtube](https://www.youtube.com/watch?v=Zf6rcv67bT4).
 
