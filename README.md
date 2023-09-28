@@ -192,3 +192,62 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
   11,33438 | 3,366657 | 118,9775%
 
     R: Pelo CV podemos perceber que o valor é 118% de dispersão em relação a média, ou seja, os dados são muito dispersos dentro do conjunto de dados.
+
+
+### Tabelas de frequência
+
+**As tabelas de frequência** sumarizam a quantidade observada de determinado atributo, ou seja, a frequência que aparece nos dados.
+
+- **Frequência absoluta** número de eventos observados.
+- **Frequência relativa** relação entre os eventos observados e o total, ou seja, pode ser dada como uma fração ou em porcentagem.
+
+Aqui utilizaremos as tabelas de frequência utilizando a linguagem R e SQL para responder as perguntas 11 e 12, além de gerar gráficos de histograma.
+
+11. Qual a distribuição dos pacientes pela raça?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/frequencia-raca.jpg)
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/distribuicao-raca-paciente.png)
+
+    R: Pode-se concluir que pela distribuição a raça mais atendida é a raça de número 1 que se repete 464 vezes, um total de 96% dos dados.
+
+12. Qual a distribuição dos pacientes por idade?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/frequencia-idade.jpg)
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/distribuicao-idade-paciente.png)
+
+    R: A idade que mais se repete é a de 0 anos, recém-nascidos, 306 vezes, um total de 61%.
+
+
+## Análise exploratória
+
+Aqui respondemos algumas perguntas de negócio (13 a 18) com algumas sumarizações de dados.
+
+13. Qual o gasto total com internações hospitalares por idade?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-por-idade.jpg)
+
+14. E qual idade gera o maior gasto total com internações hospitalares?
+
+  Idade | Gasto total
+  :--: | :--:
+  0 | US$ 676.952,00
+
+15. Qual o gasto total com internações hospitalares por gêneros?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-por-genero.jpg)
+
+16. Qual o gasto médio com internações hospitalares por raça do paciente?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-medio-raca.jpg)
+
+17. Para pacientes acima de 10 anos, qual a média de gastos total com internações hospitalares?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-medio-idade-maior10.jpg)
+
+18. Considerando o item anterior, qual idade tem média de gastos superior a 3000?
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-medio-idade-maior10-maior3k.jpg)
+
+
