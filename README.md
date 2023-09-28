@@ -69,7 +69,7 @@ APRDRG | Grupo de diagnóstico do paciente
   7. Quais as medidas de posição relativa das idades dos pacientes?
   8. Quais as medidas de posição relativa dos tempos de permanência/internação dos pacientes?
   9. Quais as medidas de dispersão da idade dos pacientes?
-  10. Quais as medidas de dispersão do tempo de internação dos pacientes?
+  10. Quais as medidas de dispersão do tempo de permanência/internação dos pacientes?
   11. Qual a distribuição dos pacientes pela raça?
   12. Qual a distribuição dos pacientes por idade?
   13. Qual o gasto total com internações hospitalares por idade?
@@ -88,11 +88,11 @@ APRDRG | Grupo de diagnóstico do paciente
 
 ### Medidas de tedência central
 
-  Medidas de tendência central são aqueles que mostram o comportamento dos dados em torno de uma medida de centro, temos a média, moda e mediana.
+  **Medidas de tendência central** são aqueles que mostram o comportamento dos dados em torno de uma medida de centro, temos a média, moda e mediana.
 
 #### Média
 
-  Média é a mais utilizada das medidas de tendencia central, é o resultado das somas dos valores de uma variável dividido pela quantidade de observações.
+  **Média** é a mais utilizada das medidas de tendencia central, é o resultado das somas dos valores de uma variável dividido pela quantidade de observações.
 
   O conceito de média responde as duas prinmeiras perguntas e no código [atividade.R](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/atividade.R) é utilizado a linguagem R em paralelo com o SQL.
 
@@ -106,7 +106,7 @@ APRDRG | Grupo de diagnóstico do paciente
 
 #### Moda
 
-  Moda é o valor que se repete mais vezes dentre os dados observados.
+  **Moda** é o valor que se repete mais vezes dentre os dados observados.
 
   E com ela respondemos as questões 3 e 4 de negócios, utilizando novamente em paralelo o R e o SQL.
 
@@ -120,7 +120,7 @@ APRDRG | Grupo de diagnóstico do paciente
 
 #### Mediana
 
-  Mediana é o valor do meio do conjunto de dados, organizado de forma crescente ou decrescente.
+  **Mediana** é o valor do meio do conjunto de dados, organizado de forma crescente ou decrescente.
 
   A mediana responde as perguntas 5 e 6.
 
@@ -135,10 +135,10 @@ APRDRG | Grupo de diagnóstico do paciente
 
 ### Medidas de posição relativa
 
-  Medidas de posição relativa comparam a posição de um valor em relação ao de outro valor em um conjunto de dados. Percentis e quartis sãos os mais comuns de serem utilizados.
+  **Medidas de posição relativa** comparam a posição de um valor em relação ao de outro valor em um conjunto de dados. Percentis e quartis sãos os mais comuns de serem utilizados.
 
-- Percentis – dividem o conjunto de dados em 100 partes iguais.
-- Quartis – dividem o conjunto de dados em 4 partes iguals.
+- **Percentis** dividem o conjunto de dados em 100 partes iguais.
+- **Quartis** dividem o conjunto de dados em 4 partes iguals.
 
 Quartis dividem o conjunto de dados em 25% (primeiro quartil), 50% (segundo quartil), 75% (terceiro quartil) e 100% (quarto quartil).
 
@@ -166,3 +166,29 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
 
     R: Os dados que estão cocentrados entre o primeiro quartil e a mediana que é 25% dos dados são referentes a 2 horas de permanência/internação no hospital. Observamos também muitos outloiers, tanto o valor 0 como vários após as 3 horas.
 
+
+### Medidas de dispersão
+
+**Medidas de dispersão** mostram o quão os valores estão espalhados dentro do conjunto de dados: Variância, Desvio Padrão e Coeficiente de variação (CV).
+
+- **Variancia** mede a variabilidade dos dados em relação à média.
+
+- **Desvio padrão** em termos simples é a distância média que os valores têm da média, ou seja, como seu nome sugere é um padrão de desvio (distância) em relação à média.
+
+- **Coeficiente de variação (CV)** mede o desvio padrão em termos percentuais em relação da média, quanto maior o CV maior a variabilidade dos dados e menor sua consistência e quanto menor, menor é sua variabilidade e maior a consistência dos dados.
+
+9. Quais as medidas de dispersão da idade dos pacientes?
+    
+  Variância | Desvio Padrão | CV
+  :--: | :--: | :--:
+  48,34013 | 6,952706 | 136,4294%
+
+    R: As medidas de dispersão permitem uma interpretação de como os dados estão espalhados em relação a média, mas é necessário comparar com outro grupo de dados. Pelo menos com o CV podemos ver que o valor de espalhamento dos dados está em 136% em relação à média, logo podemos ver que os dados são muito dispersos.
+
+10. Quais as medidas de dispersão do tempo de permanência/internação dos pacientes?
+
+  Variância | Desvio Padrão | CV
+  :--: | :--: | :--:
+  11,33438 | 3,366657 | 118,9775%
+
+    R: Pelo CV podemos perceber que o valor é 118% de dispersão em relação a média, ou seja, os dados são muito dispersos dentro do conjunto de dados.
