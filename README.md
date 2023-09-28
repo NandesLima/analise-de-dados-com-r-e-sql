@@ -323,9 +323,9 @@ Conclusão: Os custos dos cuidados de saúde, dependem da idade, do tempo de per
 
 ## Participantes
 
-Ernandes Lima
-Arlir Filho
-Jéssica Mayara
-Danilo de Lima
-Glaubia Costa
-Denise Maria
+Ernandes Lima | Arlir Filho | Danilo de Lima | Jéssica Mayara | Glaubia Costa | Denise Maria
+:--: | :--: | :--: | :--: | :--: | :--:
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/1621899775850.jpeg)| ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/139386165.jpeg) | ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/1638414034265.jpeg) |  |  | 
+[Linkedin](https://www.linkedin.com/in/ernandes-lima/) | [Linkedin](https://www.linkedin.com/in/arlir-rodrigues-filho/) | [Linkedin](https://www.linkedin.com/in/danilo-santos-5a70a869/) | | | 
+[GitHub](https://github.com/NandesLima) | [GitHub](https://github.com/ArlirFilho) | | | |
+
