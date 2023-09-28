@@ -67,7 +67,7 @@ APRDRG | Grupo de diagnóstico do paciente
   5. Qual a mediana da idade dos pacientes?
   6. Qual a mediana do tempo de permanência/internações dos pacientes?
   7. Quais as medidas de posição relativa das idades dos pacientes?
-  8. Quais as medidas de posição relativa dos tempos de internação dos pacientes?
+  8. Quais as medidas de posição relativa dos tempos de permanência/internação dos pacientes?
   9. Quais as medidas de dispersão da idade dos pacientes?
   10. Quais as medidas de dispersão do tempo de internação dos pacientes?
   11. Qual a distribuição dos pacientes pela raça?
@@ -132,4 +132,37 @@ APRDRG | Grupo de diagnóstico do paciente
 
     R: 2 horas
 
+
+### Medidas de posição relativa
+
+  Medidas de posição relativa comparam a posição de um valor em relação ao de outro valor em um conjunto de dados. Percentis e quartis sãos os mais comuns de serem utilizados.
+
+- Percentis – dividem o conjunto de dados em 100 partes iguais.
+- Quartis – dividem o conjunto de dados em 4 partes iguals.
+
+Quartis dividem o conjunto de dados em 25% (primeiro quartil), 50% (segundo quartil), 75% (terceiro quartil) e 100% (quarto quartil).
+
+O segundo quartil ou o 50% percentil é a mediana.
+
+As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado apenas a linguagem R, e junto com as respostas, das medidas de posição é apresentado em seguida um gráfico de boxplot que mostra o comportamento das medidas de posição relativa.
+
+  7. Quais as medidas de posição relativa das idades dos pacientes?
+ 
+  Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max.
+  :--: | :--: | :--: | :--: | :--: | :--:
+  0,000 | 0,000 | 0,000 | 5,096 | 13,000 | 17,000
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/boxplo-idades.png)
+
+    R: Analisando os valores tanto das medidas de posição relativa como do gráfico bloxpot, podemos concluir que pelo menos 50% dos dados de idade estão na faixa de 0 anos, ou seja, recém-nascidos.
+
+  8. Quais as medidas de posição relativa dos tempos de permanência/internação dos pacientes?
+
+  Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max.
+  :--: | :--: | :--: | :--: | :--: | :--:
+  0,00 | 2,00 | 2,00 | 2,83 | 3,00 | 41,00
+
+![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/boxplot-tempo.png)
+
+    R: Os dados que estão cocentrados entre o primeiro quartil e a mediana que é 25% dos dados são referentes a 2 horas de permanência/internação no hospital. Observamos também muitos outloiers, tanto o valor 0 como vários após as 3 horas.
 
