@@ -63,9 +63,9 @@ APRDRG | Grupo de diagnóstico do paciente
   1. Qual a idade média dos pacientes?
   2. Qual o tempo médio de permanência/internações dos pacientes?
   3. Qual a moda da idade dos pacientes?
-  4. Qual a moda do tempo de internação dos pacientes?
+  4. Qual é a moda de permanência/internações dos pacientes?
   5. Qual a mediana da idade dos pacientes?
-  6. Qual a mediana do tempo de internação dos pacientes?
+  6. Qual a mediana do tempo de permanência/internações dos pacientes?
   7. Quais as medidas de posição relativa das idades dos pacientes?
   8. Quais as medidas de posição relativa dos tempos de internação dos pacientes?
   9. Quais as medidas de dispersão da idade dos pacientes?
@@ -103,3 +103,33 @@ APRDRG | Grupo de diagnóstico do paciente
   2. Qual o tempo médio de permanência/internações dos pacientes?
 
     R: 2,829659 horas
+
+#### Moda
+
+  Moda é o valor que se repete mais vezes dentre os dados observados.
+
+  E com ela respondemos as questões 3 e 4 de negócios, utilizando novamente em paralelo o R e o SQL.
+
+  3. Qual é a moda da idade dos pacientes?
+
+    R: 0 anos
+
+  4. Qual é a moda de permanência/internações dos pacientes?
+
+    R: 2 horas
+
+#### Mediana
+
+  Mediana é o valor do meio do conjunto de dados, organizado de forma crescente ou decrescente.
+
+  A mediana responde as perguntas 5 e 6.
+
+  5. Qual a mediana da idade dos pacientes?
+
+    R: 0 anos
+
+  6. Qual a mediana do tempo de permanência/internações dos pacientes?
+
+    R: 2 horas
+
+
