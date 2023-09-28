@@ -315,3 +315,17 @@ A variável FEMALE não passa novamente e será removida para o próximo modelo.
 Todas as variáveis dependentes passam no teste p-value mostrando uma alta significância.
 
 Conclusão: Os custos dos cuidados de saúde, dependem da idade, do tempo de permanência e do grupo de diagnóstico.
+
+
+## Conclusão
+
+  A análise descritiva de dados permite o entendimento do conjunto de dados desde o seu centro e dispersão em torno do centro. Sumarizações como nas tabelas de frequência. E até mesmo entender a relação entre os dados através dos processos de regressão. Sendo úteis até para responder questões práticas de negócio.
+
+## Participantes
+
+Ernandes Lima
+Arlir Filho
+Jéssica Mayara
+Danilo de Lima
+Glaubia Costa
+Denise Maria
