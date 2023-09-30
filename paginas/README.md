@@ -83,4 +83,4 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
 
 | Página Anterior | Próxima págia |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
-| [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de dispersão e tabelas de frequência](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/tree/main/paginas/paginas) |
+| [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de dispersão e tabelas de frequência](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/tree/main/paginas/paginas/README.md) |
