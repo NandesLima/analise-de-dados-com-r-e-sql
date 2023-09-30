@@ -83,4 +83,4 @@ APRDRG | Grupo de diagnóstico do paciente
 
 Próxima página | 
 :--: |
-[Análise descritiva de dados - Medidas de tendência central e posição relativa](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/1621899775850.jpeg)|
+[Análise descritiva de dados - Medidas de tendência central e posição relativa](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/tree/main/paginas)|
