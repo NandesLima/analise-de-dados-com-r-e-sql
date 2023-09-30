@@ -68,6 +68,7 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
    | 0,000 | 0,000   | 0,000  | 5,096 | 13,000  | 17,000 |
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/boxplo-idades.png)
+    
     R: Analisando os valores tanto das medidas de posição relativa como do gráfico bloxpot, podemos concluir que pelo menos 50% dos dados de idade estão na faixa de 0 anos, ou seja, recém-nascidos.
 
 8. Quais as medidas de posição relativa dos tempos de permanência/internação dos pacientes?
@@ -77,6 +78,7 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
    | 0,00 | 2,00    | 2,00   | 2,83 | 3,00    | 41,00 |
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/boxplot-tempo.png)
+    
     R: Os dados que estão cocentrados entre o primeiro quartil e a mediana que é 25% dos dados são referentes a 2 horas de permanência/internação no hospital. Observamos também muitos outloiers, tanto o valor 0 como vários após as 3 horas.
 
 | Página Anterior | Próxima págia |
