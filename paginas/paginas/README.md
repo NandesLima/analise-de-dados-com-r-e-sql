@@ -52,6 +52,6 @@ Aqui utilizaremos as tabelas de frequência utilizando a linguagem R e SQL para 
     
       R: A idade que mais se repete é a de 0 anos, recém-nascidos, 306 vezes, um total de 61%.
 
-|Início | Página Anterior | Próxima página |
+|Início | Página anterior | Próxima página |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de tendência central e de posição relativa](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/README.md) | [Análise exploratória](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/paginas/paginas/README.md)
