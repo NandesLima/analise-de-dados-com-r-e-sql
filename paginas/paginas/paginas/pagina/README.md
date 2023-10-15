@@ -4,7 +4,7 @@ O modelo de regressão investiga a relação entre variáveis.
 
 ### Regressão linear simples
 
-- **Regressão linear simples** descreve o relacionamento entre duas variáveis usando uma equação, uma variável independente x que explica a variação em outra variável, que é chamada de variável dependente y. O gráfico de dispersao entre as duas variáveis formam uma linha reta.
+- **Regressão linear simples** descreve o relacionamento entre duas variáveis usando uma equação, uma variável independente x que explica a variação em outra variável, que é chamada de variável dependente y. O gráfico de dispersão entre as duas variáveis forma uma linha reta.
 
 - A regressão linear utiliza-se da correlação, que é a força de relacionamento linear entre as variáveis.
 
@@ -16,7 +16,7 @@ O modelo de regressão investiga a relação entre variáveis.
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/grafico-correlacao.png)
 
-A matriz gerada mostra o coefiente de correlação entre os dados do dataset, e podemos verificar que o único relacionamento estatísticamente significante é entre o tempo de internação (LOS) e os custos (TOTCHG).
+A matriz gerada mostra o coeficiente de correlação entre os dados do dataset, e podemos verificar que o único relacionamento estatisticamente significante é entre o tempo de internação (LOS) e os custos (TOTCHG).
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/grafico-dispersao-los-totchg.png)
 
@@ -75,6 +75,6 @@ Conclusão: Os custos dos cuidados de saúde, dependem da idade, do tempo de per
 | [GitHub](https://github.com/NandesLima)                                                              | [GitHub](https://github.com/ArlirFilho)                                                          |                                                                                                      |                                                                                               |               |              |
 
 
-|Início | Página Anterior |
+|Início | Página anterior |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Análise exploratória](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/paginas/paginas/README.md) |
