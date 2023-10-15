@@ -1,8 +1,8 @@
 ## Análise Descritiva de Dados
 
-  A Análise Descritiva de Dados é responsável pela coleta, organização, descrição, síntese e análise dos dados. A Análise Descritiva pode ser feita através de MEDIDAS DE TENDÊNCIA CENTRAL, DE POSIÇÃO RELATIVA, DE DISPERSÃO, além de TABELAS DE FREQUêNCIA E REGRESSÃO.
+  A Análise Descritiva de Dados é responsável pela coleta, organização, descrição, síntese e análise dos dados. A Análise Descritiva pode ser feita através de MEDIDAS DE TENDÊNCIA CENTRAL, DE POSIÇÃO RELATIVA, DE DISPERSÃO, além de TABELAS DE FREQUÊNCIA E REGRESSÃO.
 
-### Medidas de tedência central
+### Medidas de tendência central
 
   **Medidas de tendência central** são aqueles que mostram o comportamento dos dados em torno de uma medida de centro, temos a média, moda e mediana.
 
@@ -10,7 +10,7 @@
 
   **Média** é a mais utilizada das medidas de tendencia central, é o resultado das somas dos valores de uma variável dividido pela quantidade de observações.
 
-  O conceito de média responde as duas prinmeiras perguntas e no código [atividade.R](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/atividade.R) é utilizado a linguagem R em paralelo com o SQL.
+  O conceito de média responde as duas primeiras perguntas e no código [atividade.R](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/codigos-dataset/atividade.R) é utilizado a linguagem R em paralelo com o SQL.
 
 1. Qual a idade média dos pacientes?
 
@@ -38,7 +38,7 @@
 
   **Mediana** é o valor do meio do conjunto de dados, organizado de forma crescente ou decrescente.
 
-  A mediana responde as perguntas 5 e 6.
+  A mediana responde às perguntas 5 e 6.
 
 5. Qual a mediana da idade dos pacientes?
 
@@ -53,7 +53,7 @@
   **Medidas de posição relativa** comparam a posição de um valor em relação ao de outro valor em um conjunto de dados. Percentis e quartis sãos os mais comuns de serem utilizados.
 
 - **Percentis** dividem o conjunto de dados em 100 partes iguais.
-- **Quartis** dividem o conjunto de dados em 4 partes iguals.
+- **Quartis** dividem o conjunto de dados em 4 partes iguais.
 
 Quartis dividem o conjunto de dados em 25% (primeiro quartil), 50% (segundo quartil), 75% (terceiro quartil) e 100% (quarto quartil).
 
@@ -79,8 +79,8 @@ As medidas de posição relativa respondem as perguntas 7 e 8 e é utilizado ape
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/boxplot-tempo.png)
     
-    R: Os dados que estão cocentrados entre o primeiro quartil e a mediana que é 25% dos dados são referentes a 2 horas de permanência/internação no hospital. Observamos também muitos outloiers, tanto o valor 0 como vários após as 3 horas.
+    R: Os dados que estão concentrados entre o primeiro quartil e a mediana que é 25% dos dados são referentes a 2 horas de permanência/internação no hospital. Observamos também muitos outliers, tanto o valor 0 como vários após as 3 horas.
 
-| Página Anterior | Próxima págia |
+| Página Anterior | Próxima página |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de dispersão e tabelas de frequência](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/tree/main/paginas/paginas/README.md) |
