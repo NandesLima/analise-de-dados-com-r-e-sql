@@ -28,6 +28,6 @@ Aqui respondemos algumas perguntas de negócio (13 a 18) com algumas sumarizaç�
 
 ![](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/imagens/gasto-medio-idade-maior10-maior3k.jpg)
 
-|Início | Página Anterior | Próxima págia |
+|Início | Página anterior | Próxima página |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de dispersão e tabelas de frequência](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/paginas/README.md) | [Regressão](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/paginas/paginas/pagina/README.md)
