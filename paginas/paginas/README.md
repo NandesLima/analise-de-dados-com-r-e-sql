@@ -2,7 +2,7 @@
 
 **Medidas de dispersão** mostram o quão os valores estão espalhados dentro do conjunto de dados: Variância, Desvio Padrão e Coeficiente de variação (CV).
 
-- **Variancia** mede a variabilidade dos dados em relação à média.
+- **Variância** mede a variabilidade dos dados em relação à média.
 
 - **Desvio padrão** em termos simples é a distância média que os valores têm da média, ou seja, como seu nome sugere é um padrão de desvio (distância) em relação à média.
 
@@ -52,6 +52,6 @@ Aqui utilizaremos as tabelas de frequência utilizando a linguagem R e SQL para 
     
       R: A idade que mais se repete é a de 0 anos, recém-nascidos, 306 vezes, um total de 61%.
 
-|Início | Página Anterior | Próxima págia |
+|Início | Página Anterior | Próxima página |
 |:----------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:|
 | [Introdução](https://github.com/NandesLima/analise-de-dados-com-r-e-sql) | [Medidas de tendência central e de posição relativa](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/README.md) | [Análise exploratória](https://github.com/NandesLima/analise-de-dados-com-r-e-sql/blob/main/paginas/paginas/paginas/README.md)
