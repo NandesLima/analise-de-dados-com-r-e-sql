@@ -1,0 +1,63 @@
+site_name: "Hospital Cost Analysis 📊"
+site_url: "https://nandeslima.github.io/analise-de-dados-com-r-e-sql"
+site_author: "Ariel Shlomoh"
+site_description: "Análise Descritiva de Custos Hospitalares com R e SQL"
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Alternar para modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Alternar para modo escuro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - navigation.sections
+
+nav:
+  - Início: index.md
+  - Contexto: sobre.md
+  - Dataset: dataset.md
+  - Análise Descritiva:
+      - Tendência & Posição: analise/posicao.md
+      - Dispersão & Frequência: analise/frequencia.md
+      - Insights de Negócio: analise/negocios.md
+      - Correlação & Impacto: analise/correlacao.md
+  - Conclusão: conclusao.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NandesLima
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ariel-shlomoh/
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/custom.css
